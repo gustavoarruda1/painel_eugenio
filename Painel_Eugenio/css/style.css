@@ -36,6 +36,7 @@ aside {
     display: flex;
     align-items: center;
     flex-direction: column;
+    box-shadow: rgb(100, 100, 111) 0px 7px 29px 0px;
 }
 
 .aside-container {
@@ -311,9 +312,9 @@ option {
         width: 40px;
         height: 40px;
         border-radius: 50%;
-        border: 2px solid var(--primarycolor);
         background: none;
         cursor: pointer;
+        border: 0;
     }
 
     .button-menu button>img {
