@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Painel</title>
+</head>
+
+<body>
+
+    <main>
+        <div class="main-container">
+            <!-- criando menu lateral -->
+            <div class="button-menu">
+                <button onclick="menuView()"><img class="icon" src="./img/menu.svg" alt=""></button>
+            </div>
+            <aside class="aside-responsivo">
+                <div class="aside-container">
+                    <div class="perfil">
+                        <div class="img-perfil"></div> <!-- img-perfil -->
+                        <div class="nome-perfil">
+                            <p>Carlos</p>
+                        </div>
+                    </div> <!-- perfil -->
+                    <div class="btn-home">
+                        <button>
+                            <img src="./img/home.svg" alt="Icone da para voltar à página inicial" title="Início">
+                        </button>
+                    </div> <!-- btn-home -->
+                    <nav>
+                        <div class="gestao nav-item">
+                            <h2>gestão</h2>
+                            <div class="item-child">
+                                <ul>
+                                    <li><a href="#">Estatísticas</a></li>
+                                    <li><a href="#">Indice</a></li>
+                                </ul>
+                            </div> <!-- item-child -->
+                        </div> <!-- gestao -->
+                        <div class="admin nav-item">
+                            <h2>admin</h2>
+                            <div class="item-child">
+                                <ul>
+                                    <li><a href="#">Funcionários</a></li>
+                                    <li><a href="#">Cd. User</a></li>
+                                </ul>
+                            </div> <!-- item-child -->
+                        </div> <!-- admin -->
+                        <div class="noticias nav-item">
+                            <h2>notícias</h2>
+                            <div class="item-child">
+                                <ul>
+                                    <li><a href="#">Cd. Noticia</a></li>
+                                    <li><a href="#">Categoria</a></li>
+                                </ul>
+                            </div> <!-- item-child -->
+                        </div> <!-- noticias -->
+                    </nav>
+                </div> <!-- aside-container -->
+            </aside>
+            <!-- fim do menu lateral -->
+
+            <!-- criando página de estatísticas -->
+            <div class="container">
+                <div class="estatistica-box">
+                    <div class="center1">
+                        <div class="stats-container">
+                            <div class="list-stats">
+                                <div class="list-stats-item">
+                                    <label for="dias">Nos ultimos 7 dias</label>
+                                    <select name="" id="dias">
+                                        <option value="/"> </option>
+                                        <option value="/">7</option>
+                                        <option value="/">6</option>
+                                        <option value="/">5</option>
+                                        <option value="/">4</option>
+                                        <option value="/">3</option>
+                                        <option value="/">2</option>
+                                        <option value="/">1</option>
+                                    </select>
+                                </div>
+                            </div> <!-- list-stats -->
+                            <div class="stats">
+                                <div class="stats-box">
+                                    <p>N de visitas online</p>
+                                    <p>4 43634756987-0</p>
+                                </div><!-- stats-box -->
+                                <div class="stats-box">
+                                    <p>Total de visitas hoje</p>
+                                    <p>4 43634756987-0</p>
+                                </div><!-- stats-box -->
+                                <div class="stats-box">
+                                    <p>Visitas totais</p>
+                                    <p>4 43634756987-0</p>
+                                </div><!-- stats-box -->
+                            </div> <!-- stats -->
+                        </div> <!-- stats-container -->
+
+                        <div class="info-container">
+                            <div class="info-acesso">
+                                <div class="ip info-acesso-item">
+                                    <p>IP</p>
+                                </div> <!-- ip -->
+                                <div class="data info-acesso-item">
+                                    <p>data</p>
+                                </div> <!-- data -->
+                                <div class="acesso info-acesso-item">
+                                    <p>Ultimo acesso</p>
+                                </div> <!-- acesso -->
+                            </div> <!-- info-acesso -->
+                            <div class="info-acesso">
+                                <div class="ip info-acesso-item">
+                                    <p>IP</p>
+                                </div> <!-- ip -->
+                                <div class="data info-acesso-item">
+                                    <p>data</p>
+                                </div> <!-- data -->
+                                <div class="acesso info-acesso-item">
+                                    <p>Ultimo acesso</p>
+                                </div> <!-- acesso -->
+                            </div> <!-- info-acesso -->
+                            <div class="info-acesso">
+                                <div class="ip info-acesso-item">
+                                    <p>IP</p>
+                                </div> <!-- ip -->
+                                <div class="data info-acesso-item">
+                                    <p>data</p>
+                                </div> <!-- data -->
+                                <div class="acesso info-acesso-item">
+                                    <p>Ultimo acesso</p>
+                                </div> <!-- acesso -->
+                            </div> <!-- info-acesso -->
+                            <div class="info-acesso">
+                                <div class="ip info-acesso-item">
+                                    <p>IP</p>
+                                </div> <!-- ip -->
+                                <div class="data info-acesso-item">
+                                    <p>data</p>
+                                </div> <!-- data -->
+                                <div class="acesso info-acesso-item">
+                                    <p>Ultimo acesso</p>
+                                </div> <!-- acesso -->
+                            </div> <!-- info-acesso -->
+                            <div class="info-acesso">
+                                <div class="ip info-acesso-item">
+                                    <p>IP</p>
+                                </div> <!-- ip -->
+                                <div class="data info-acesso-item">
+                                    <p>data</p>
+                                </div> <!-- data -->
+                                <div class="acesso info-acesso-item">
+                                    <p>Ultimo acesso</p>
+                                </div> <!-- acesso -->
+                            </div> <!-- info-acesso -->
+                        </div> <!-- info-container -->
+                    </div> <!-- center1 -->
+                </div> <!-- estatistica-box -->
+            </div> <!-- container -->
+            <!-- fim dapágina de estatistícas -->
+
+        </div> <!-- main-container -->
+    </main>
+
+    <!-- VAI CORINTHIANS -->
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
