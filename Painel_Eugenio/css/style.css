@@ -238,7 +238,7 @@ option {
 }
 
 .info-acesso {
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -248,24 +248,24 @@ option {
 }
 
 .ip {
-    width: 8%;
-    padding: 18px 12px 18px 12px;
+    width: 30%;
+    padding: 19px 12px 19px 12px;
     border-radius: 7px;
     background: var(--colorstats);
     text-align: center;
 }
 
 .data {
-    padding: 18px 12px 18px 12px;
-    width: 28%;
+    padding: 19px 12px 19px 12px;
+    width: 30%;
     background: var(--colorstats);
     text-align: center;
     border-radius: 7px;
 }
 
 .acesso {
-    padding: 18px 12px 18px 12px;
-    width: 58%;
+    padding: 19px 12px 19px 12px;
+    width: 30%;
     background: var(--colorstats);
     text-align: center;
     border-radius: 7px;
