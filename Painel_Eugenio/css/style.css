@@ -274,13 +274,13 @@ option {
     aside {
         width: 0px;
         display: block;
-        position: fixed;
         z-index: 1000;
         transition: .5s;
         visibility: hidden;
         overflow-y: hidden;
         left: 0;
         box-shadow: none;
+        border-bottom: 1px solid var(--fontcolor);
     }
 
     .aside-container {
@@ -315,7 +315,7 @@ option {
 
     .button-menu {
         display: block;
-        position: fixed;
+        position: absolute;
         left: 22px;
         top: 24px;
         z-index: 10000;
